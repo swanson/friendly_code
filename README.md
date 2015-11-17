@@ -30,6 +30,7 @@ Generate codes in your application:
 
 ```ruby
 require 'friendly_code'
+
 FriendlyCode.generate
 => "QQ6C46"
 
@@ -52,6 +53,7 @@ Valid character set:
 
 Ambiguous characters are characters that could be confused with another character. Vowels are removed to reduce the chance of generating actual words.
 
+```
 0 => Ambiguous (O, Q)
 1 => Ambiguous (I, l)
 2 => Ambiguous (Z)
@@ -88,6 +90,7 @@ W
 X
 Y => Vowel, Ambiguous (V)
 Z => Ambiguous (2)
+```
 
 ## Development Instructions
 Install development dependencies and run the tests with:
