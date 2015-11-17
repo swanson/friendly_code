@@ -10,6 +10,8 @@ Use cases:
 
 ## Installation
 [![Gem Version](https://badge.fury.io/rb/friendly_code.svg)](https://badge.fury.io/rb/friendly_code)
+
+
 Add it to your Gemfile:
 
 ```ruby
