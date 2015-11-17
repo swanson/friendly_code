@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    friendly_code (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.8.2)
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  friendly_code!
+  minitest (~> 5.8)
+  rake (~> 10.4)
