@@ -7,6 +7,7 @@ For scenarios where only computers will be interacting, this is probably the way
 Use cases:
 * Entering code sent via SMS into a web page or app
 * Entering code from printed material into a web page or app
+* Easy to read coupon codes, promo codes, or access tokens
 
 ## Installation
 [![Gem Version](https://badge.fury.io/rb/friendly_code.svg)](https://badge.fury.io/rb/friendly_code)
