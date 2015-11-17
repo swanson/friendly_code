@@ -1,10 +1,10 @@
 class FriendlyCode
-  VERSION = '1.0.0'
+  VERSION = '2.0.0'
 
   CHARACTER_SET = %w{ 3 6 7 C D F G H J K M N P R T W X }
   DEFAULT_SIZE = 6
 
   def self.generate(size = DEFAULT_SIZE)
-    size.times.map{|_| CHARACTER_SET.sample }.join
+    size.times.map{ CHARACTER_SET[SecureRandom.random_number(CHARACTER_SET.length)] }.join
   end
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    friendly_code (1.0.0)
+    friendly_code (2.0.0)
 
 GEM
   remote: https://rubygems.org/
