@@ -9,6 +9,7 @@ Use cases:
 * Entering code from printed material into a web page or app
 
 ## Installation
+[![Gem Version](https://badge.fury.io/rb/friendly_code.svg)](https://badge.fury.io/rb/friendly_code)
 Add it to your Gemfile:
 
 ```ruby
