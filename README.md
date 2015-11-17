@@ -2,7 +2,7 @@
 Generate user-friendly, pseudo-random codes without ambiguous letters or numbers (e.g. 0 vs O vs o).
 
 ### Why not just use `SecureRandom.guid`?
-For scenarios where only computers will be interacting, this is probably the way to go. But when the interaction involves a human, we want to remove ambiguity to improve accessibility and ease of reading and entering data.
+For scenarios where only computers will be interacting, this is probably the way to go. But when the interaction involves a human, we want to remove ambiguity to improve accessibility and improve ease of reading and entering data.
 
 Use cases:
 * Entering code sent via SMS into a web page or app
