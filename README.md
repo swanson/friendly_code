@@ -92,6 +92,8 @@ Z => Ambiguous (2)
 ```
 
 ## Development Instructions
+[![Build Status](https://api.travis-ci.org/swanson/friendly_code.svg?style=flat)](https://travis-ci.org/swanson/friendly_code)
+
 Install development dependencies:
 
 ```console
