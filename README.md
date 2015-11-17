@@ -80,7 +80,7 @@ M
 N
 O => Ambiguous (0, Q)
 P
-Q => Ambiguous (Q)
+Q => Ambiguous (0, O)
 R
 S => Ambiguous (5)
 T
