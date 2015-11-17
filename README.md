@@ -11,7 +11,6 @@ Use cases:
 ## Installation
 [![Gem Version](https://badge.fury.io/rb/friendly_code.svg)](https://badge.fury.io/rb/friendly_code)
 
-
 Add it to your Gemfile:
 
 ```ruby
@@ -49,7 +48,7 @@ You should try to strike a balance between length of the code and how many uniqu
 
 ## Character Set Considerations
 Valid character set:
-3 6 7 C D F G H J K M N P R T W X
+`3 6 7 C D F G H J K M N P R T W X`
 
 Ambiguous characters are characters that could be confused with another character. Vowels are removed to reduce the chance of generating actual words.
 
@@ -93,9 +92,13 @@ Z => Ambiguous (2)
 ```
 
 ## Development Instructions
-Install development dependencies and run the tests with:
+Install development dependencies:
 
 ```console
 bundle install
+```
+
+Run the tests:
+```console
 rake
 ```
