@@ -40,7 +40,7 @@ FriendlyCode.generate(8)
 ## Guidelines
 This gem generates codes that are all UPPERCASE. However, your application should allow the user to enter the code with any casing (including mixed casing).
 
-By default, the gem will return codes that are 6 digits in length. 
+By default, the gem will return codes that are 6 characters in length. 
 
 Based on the available characters (below) and length of 6, there are 17^6 unique permutations (~24 Million). It is still recommended that you check for and handle the possibility of duplicates in your application.
 
