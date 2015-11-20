@@ -1,3 +1,5 @@
+require 'securerandom'
+
 class FriendlyCode
   VERSION = '2.0.0'
 
