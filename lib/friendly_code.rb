@@ -1,7 +1,7 @@
 require 'securerandom'
 
 class FriendlyCode
-  VERSION = '2.0.0'
+  VERSION = '2.0.1'
 
   CHARACTER_SET = %w{ 3 6 7 C D F G H J K M N P R T W X }
   DEFAULT_SIZE = 6
